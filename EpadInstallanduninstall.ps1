@@ -6,7 +6,7 @@ param(
 [switch] $nodownload
 )
 #Hardcoded Values
-$forceuninstall = $true
+#$forceuninstall = $true
 if($forceuninstall){
 Write-Host "FORCE UNINSTALL INITIATED!" -ForegroundColor Red
 }
